@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;1,200&display=swap');
+
+:root {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: rgb(43, 43, 43);
+    font-family: 'Poppins', sans-serif;
+}
+
+header p {
+    color: rgb(43, 43, 43);
+}
+
+body {
+    background-color: F2DEBA;
+}
+
+input {
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 3px;
+    padding: 5px 5px;
+}
+
+button {
+    background-color: #3A8891;
+    border: none;
+    padding: 10px 10px;
+    border-radius: 5px;
+    color: aliceblue;
+    margin-top: 10px;
+}
+
+/* Table */
+
+table {
+    border-style: hidden;
+    margin: 5px 5px;
+}
+
+thead {
+    background-color: #0E5E6F;
+    color: aliceblue;
+}
+
+tr {
+    padding: 5px 5px;
+}
+
+
+.tr-1 {
+    background-color: #FFEFD6;
+    color: #3A8891;
+}
+
+.tr-2 {
+    background-color: #F2DEBA;
+    color: #3A8891;
+}
+
+.tr-3 {
+    background-color: #FFEFD6;
+    color: #3A8891;
+}
+
+.note {
+    background-color: #F2DEBA;
+    color: #3A8891;
+}
+
+hr {
+    background-color: black;
+    margin-top: 10px;
+}
+
+/* Footer */
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #0E5E6F;
+}
+
+p {
+    padding: 0;
+    margin: auto;
+    color: aliceblue;
+}
+
+.p1 {
+    font-size: 14px;
+    margin-top: 20px;
+    margin-bottom: 4px;
+}
+
+.p2 {
+    font-size: 12px;
+    margin-bottom: 20px;
+}
+
+/* Drop Down */
+select {
+    padding: 5px 5px;
+}
